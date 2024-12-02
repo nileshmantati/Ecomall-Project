@@ -31,11 +31,6 @@ img {
 
 /* Header Start */
 
-.logo_img {
-    width: 160px;
-    height: 40px;
-}
-
 .menu li {
     list-style: none;
     display: inline-block;
