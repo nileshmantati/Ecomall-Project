@@ -73,7 +73,6 @@ img {
 }
 
 .header_middle_m select {
-    /* max-width: 200px; */
     font-family: "Mulish", sans-serif;
     background-color: #f1f1f1;
 }
@@ -84,6 +83,10 @@ img {
 }
 
 .search_box input {
+    border-left: 1.8px solid #dcdcdd;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
     font-family: "Mulish", sans-serif;
     background-color: #f1f1f1;
 }
