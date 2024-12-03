@@ -68,6 +68,10 @@ img {
     display: block;
 }
 
+.header_middle {
+    border-bottom: 1px solid #dcdcdd;
+}
+
 .header_middle_m {
     border: 2px solid #0060c8;
 }
@@ -134,4 +138,18 @@ img {
 .header_middle_r a:hover .icons,
 .header_middle_r a:hover p {
     color: blue;
+}
+
+.vertical_menu_head .icons {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.vertical_menu_head {
+    border-right: 1px solid #dcdcdd;
+}
+
+.vertical_menu_head span {
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
 }
