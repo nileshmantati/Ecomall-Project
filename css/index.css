@@ -72,7 +72,13 @@ img {
     border-bottom: 1px solid #dcdcdd;
 }
 
+.header_main_middle {
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+}
+
 .header_middle_m {
+    background-color: #f1f1f1;
     border: 2px solid #0060c8;
 }
 
@@ -115,7 +121,7 @@ img {
 
 .header_middle_r .icons {
     font-size: 1.5rem;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .2s;
 }
 
 .header_middle_r .text span {
@@ -127,29 +133,123 @@ img {
 .header_middle_r .text .span1 {
     color: blue;
     font-family: "Mulish", sans-serif;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .2s;
 }
 
 .header_middle_r .text p {
     font-family: "Mulish", sans-serif;
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .2s;
 }
 
 .header_middle_r a:hover .icons,
 .header_middle_r a:hover p {
-    color: blue;
-}
-
-.vertical_menu_head .icons {
-    font-size: 1.2rem;
-    color: black;
+    color: #0060c8;
 }
 
 .vertical_menu_head {
     border-right: 1px solid #dcdcdd;
 }
 
+.vertical_menu_head a {
+    color: black;
+}
+
+.vertical_menu_head .icons {
+    font-size: 1.2rem;
+    color: black;
+    transition: all ease-in-out .2s;
+}
+
 .vertical_menu_head span {
     font-family: "Mulish", sans-serif;
-    font-weight: 900;
+    font-weight: 800;
+    transition: all ease-in-out .2s;
+}
+
+.vertical_menu_head:hover span,
+.vertical_menu_head:hover .icons {
+    color: #0060c8;
+}
+
+/* .vertical_menu {
+    top: 70px;
+    width: 100%;
+    background-color: rgb(232, 214, 189);
+}
+
+.vertical_menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+} */
+.main_menu ul {
+    gap: 2.5rem;
+}
+
+.main_menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main_menu ul li a {
+    color: black;
+    font-weight: 800;
+    font-family: "Mulish", sans-serif;
+    transition: all ease-in-out .2s;
+}
+
+.main_menu .arrow_icon {
+    transition: all ease-in-out .2s;
+}
+
+.main_menu ul li:hover a,
+.main_menu ul li:hover .arrow_icon {
+    color: #0060c8;
+}
+
+.wishcart .icons {
+    font-size: 1.7rem;
+    color: black;
+    transition: all ease-in-out .2s;
+}
+
+.wishcart a:hover .icons {
+    color: #0060c8;
+}
+
+.top_deal {
+    border-left: 1px solid #dcdcdd;
+}
+
+.main_bottom_r .top_deal a {
+    color: black;
+    font-weight: 800;
+    font-family: "Mulish", sans-serif;
+    transition: all ease-in-out .2s;
+}
+
+.main_bottom_r span {
+    font-family: "Mulish", sans-serif;
+    font-size: .7rem;
+    font-weight: 800;
+    background-color: rgba(221, 40, 49, 1);
+    position: relative;
+}
+
+.main_bottom_r span::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 6px 4px 0;
+    border-color: transparent rgba(221, 40, 49, 1) transparent transparent;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+}
+
+.main_bottom_r .top_deal:hover a {
+    color: #0060c8;
 }
