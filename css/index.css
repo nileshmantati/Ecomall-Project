@@ -308,6 +308,7 @@ section {
     background-size: cover;
     z-index: 5;
     padding: 18%;
+    overflow: hidden;
 }
 
 .new_arrival_slider_img_2 {
@@ -317,6 +318,7 @@ section {
     background-size: cover;
     z-index: 5;
     padding: 18%;
+    overflow: hidden;
 }
 
 .new_arrival_slider_img_3 {
@@ -326,6 +328,7 @@ section {
     background-size: cover;
     z-index: 5;
     padding: 18%;
+    overflow: hidden;
 }
 
 .new_arrival_slider .item_text .deals {
