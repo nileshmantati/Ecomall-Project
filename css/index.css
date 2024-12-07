@@ -347,7 +347,7 @@ section {
     color: #fcc904;
 }
 
-.new_arrival_slider a {
+.new_arrival_slider .shop_btn {
     color: #ffffff;
     background-color: #0060c8;
     font-family: "Mulish", sans-serif;
@@ -357,7 +357,7 @@ section {
     transition: all ease-in-out .3s;
 }
 
-.new_arrival_slider a:hover {
+.new_arrival_slider .shop_btn:hover {
     background-color: #0088FF;
 }
 
@@ -565,4 +565,93 @@ section {
 .ts_products_slider .owl-dots .owl-dot.active span {
     width: 35px !important;
     background: #0068C8 !important;
+}
+
+/* New Features products Deals Section Start */
+.new_features_products_section {
+    gap: 1.9rem;
+}
+
+.features_banner {
+    background-image: url("../img/features_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    border-radius: 10px;
+}
+
+.new_product_banner {
+    background-image: url("../img/new_product_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bootom center;
+    border-radius: 10px;
+}
+
+.features_banner .text_box span {
+    font-family: "Mulish", sans-serif;
+    color: #dd2831;
+}
+
+.features_banner .text_box span strong {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+}
+
+.features_banner .text_box h1 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+}
+
+.features_banner .text_box p {
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 4rem;
+}
+
+
+.features_banner .shop_btn {
+    color: #ffffff;
+    background-color: #0060c8;
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    font-size: .85rem;
+    padding: .85rem 2rem;
+    border: none;
+    transition: all ease-in-out .3s;
+}
+
+.features_banner .shop_btn:hover {
+    background-color: #ffffff;
+    color: #0068C8;
+}
+
+.new_product_banner .text_box .deals {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+    background-color: #dd2831;
+    border-radius: 0px 6px 6px 6px;
+}
+
+.new_product_banner .text_box h1 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+}
+
+.new_product_banner .text_box p {
+    font-family: "Mulish", sans-serif;
+    color: #0068C8;
+    font-weight: 700;
+}
+
+@media (max-width:992px) {
+    .features_banner {
+        background-position: center right;
+    }
+}
+
+@media (max-width:1200px) {
+    .features_banner {
+        background-position: center center;
+    }
 }
