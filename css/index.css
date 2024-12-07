@@ -301,8 +301,31 @@ section {
     border-radius: 10px;
 }
 
-.new_arrival_slider_img_2 img {
-    height: 50%;
+.new_arrival_slider_img_1 {
+    background-image: url("../img/slide1-watches.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+    padding: 18%;
+}
+
+.new_arrival_slider_img_2 {
+    background-image: url("../img/slide1-ipad.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+    padding: 18%;
+}
+
+.new_arrival_slider_img_3 {
+    background-image: url("../img/slide1-iphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+    padding: 18%;
 }
 
 .new_arrival_slider .item_text .deals {
@@ -335,12 +358,24 @@ section {
     background-color: #0088FF;
 }
 
+.new_arrival_slider .owl-dots {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .owl-theme .owl-dots .owl-dot.active span {
     transition: all ease-in-out .3s;
 }
 
 .new_arrival_slider .owl-dots .owl-dot span {
     transition: all ease-in-out .8s;
+}
+
+.new_arrival_slider .owl-dots .owl-dot span {
+    width: 12px !important;
+    height: 12px !important;
 }
 
 .new_arrival_slider .owl-dots .owl-dot.active span {
@@ -398,10 +433,21 @@ section {
     transition: all ease-in-out .4s;
 }
 
+.ts_products_galleries {
+    gap: .8rem;
+}
+
+.ts_products_galleries .img_box {
+    padding: 0px 1.2rem;
+}
+
 .ts_products_galleries .img_box a {
-    border-radius: 5px;
     filter: brightness(0.95) opacity(0.5);
     transition: filter 350ms ease;
+}
+
+.ts_products_galleries .img_box a img {
+    border-radius: 5px;
 }
 
 #active {
@@ -502,6 +548,11 @@ section {
 .ts_products_slider .item_text .add_btn:hover {
     color: #ffffff;
     background-color: #0068C8;
+}
+
+.ts_products_slider .owl-dots .owl-dot span {
+    width: 12px !important;
+    height: 12px !important;
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
