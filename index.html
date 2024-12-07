@@ -204,17 +204,19 @@
                 </div>
             </div>
         </div>
-        <div class="header_bottom px-1 px-lg-5 px-sm-3">
+        <div class="header_bottom px-lg-5 px-md-3 d-none d-md-block">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="header_main_bottom d-flex align-items-center">
-                        <div class="main_bottom_l d-flex">
-                            <div class="vertical_menu_box py-3 position-relative">
-                                <div class="vertical_menu_head py-1 me-5 pe-4 d-flex align-items-center">
-                                    <a href="#" class="text-decoration-none gap-3 d-flex align-items-center col">
+                    <div
+                        class="header_main_bottom col-12 d-flex justify-content-between align-items-center flex-xl-wrap flex-xxl-nowrap">
+                        <div class="main_bottom_l d-flex col-9 col-xl-10 col-xxl-9">
+                            <div class="vertical_menu_box py-3 col-1 col-xl-3 position-relative">
+                                <div
+                                    class="vertical_menu_head py-1 me-0 pe-0 pe-xl-4 d-flex align-items-center col-6 col-xl-12">
+                                    <a href="#" class="text-decoration-none gap-3 d-flex align-items-center col-12">
                                         <i class="fa-solid fa-bars icons"></i>
-                                        <span>Shop Categories</span>
-                                        <div class="menu_head_icon ms-5">
+                                        <span class="text-nowrap d-none d-xl-block">Shop Categories</span>
+                                        <div class="menu_head_icon ms-3 d-none d-xl-block">
                                             <i class="fa-solid fa-angle-down ms-1 icons"></i>
                                         </div>
                                     </a>
@@ -229,9 +231,9 @@
                                     </ul>
                                 </nav> -->
                             </div>
-                            <div class="main_menu_box py-3">
+                            <div class="main_menu_box py-3 col-11 col-xl-9 ms-0 ms-xl-5">
                                 <nav class="main_menu col-12 h-100">
-                                    <ul class="ps-0 mb-0 col-12 h-100 d-flex">
+                                    <ul class="ps-0 mb-0 col-12 h-100 d-flex gap-2 gap-lg-4">
                                         <li><a href="#" class="text-decoration-none" style="color: #0060c8;">Home
                                                 <i class="fa-solid fa-chevron-down ms-1 arrow_icon"></i>
                                             </a></li>
@@ -249,20 +251,20 @@
                                 </nav>
                             </div>
                         </div>
-                        <div class="main_bottom_r h-100 py-3 d-flex justify-content-end col gap-4">
-                            <div class="wishcart d-flex align-items-center">
-                                <a href="#">
-                                    <i class="fa-regular fa-heart icons"></i>
-                                </a>
-                            </div>
-                            <div class="top_deal ps-4 ms-2 d-flex align-items-center">
-                                <a href="#" class="text-decoration-none text-nowrap
-                                me-3">
+                        <div
+                            class="main_bottom_r py-3 d-flex flex-row justify-content-end justify-content-xl-start flex-xl-row-reverse col-3 col-xl-12 col-xxl-3">
+                            <div class="top_deal ps-0 ps-xl-2 pe-2 pe-xl-0 d-flex align-items-center">
+                                <a href="#" class="text-decoration-none text-nowrap me-3">
                                     Today's Deal
                                 </a>
                                 <span class="text-white px-1 rounded-1">
                                     HOT
                                 </span>
+                            </div>
+                            <div class="wishcart d-flex align-items-center">
+                                <a href="#">
+                                    <i class="fa-regular fa-heart icons"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -271,39 +273,109 @@
         </div>
     </header>
     <!-- Header End -->
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-            </ul>
+
+    <!-- Categories Section Start -->
+    <section>
+        <div class="categories px-3 px-lg-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="categories_section col d-flex flex-wrap">
+                        <div class="categories_slider owl-carousel owl-theme mt-4">
+                            <div
+                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="img/icon-laptops.png" alt="Not Found" class="categories_slider_img">
+                                </a>
+                                <a href="#" class="item_text text-decoration-none">Laptops</a>
+                            </div>
+                            <div
+                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="img/icon-games.png" alt="Not Found" class="categories_slider_img">
+                                </a>
+                                <a href="#" class="item_text text-decoration-none">Games</a>
+                            </div>
+                            <div
+                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="img/icon-television.png" alt="Not Found" class="categories_slider_img">
+                                </a>
+                                <a href="#" class="item_text text-decoration-none">Television</a>
+                            </div>
+                            <div
+                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="img/icon-speaker.png" alt="Not Found" class="categories_slider_img">
+                                </a>
+                                <a href="#" class="item_text text-decoration-none">Speakers</a>
+                            </div>
+                            <div
+                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="img/icon-headphone.png" alt="Not Found" class="categories_slider_img">
+                                </a>
+                                <a href="#" class="item_text text-decoration-none">Headphones</a>
+                            </div>
+                            <div
+                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="img/icon-phone.png" alt="Not Found" class="categories_slider_img">
+                                </a>
+                                <a href="#" class="item_text text-decoration-none">Smartphone</a>
+                            </div>
+                        </div>
+                        <div class="new_arrival_slider owl-carousel owl-theme">
+                            <div class="item item_1 col d-flex justify-content-between align-items-center pt-4">
+                                <div class="item_text ms-5 ps-5 col-5">
+                                    <span class="deals text-uppercase text-white py-1 px-3">Weekend deal</span>
+                                    <h1 class="fw-bold text-capitalize text-white display-5 mt-3 mb-0">All new</h1>
+                                    <h1 class="fw-bold text-capitalize text-white display-5">for a better you</h1>
+                                    <p class="text-uppercase text-white fw-medium">amazing dicounts and deals</p>
+                                    <p class="text-capitalize text-white fs-6 mb-3">From <span
+                                            class="price fs-4 fw-bold">$399.99</span></p>
+                                    <a href="#" class="text-decoration-none text-uppercase rounded-2 mt-4">shop now</a>
+                                </div>
+                                <div class="new_arrival_slider_img col-6 me-5">
+                                    <img src="img/slide1-watches.png" alt="Not Found">
+                                </div>
+                            </div>
+                            <div class="item item_2 d-flex justify-content-between align-items-center pt-4">
+                                <div class="item_text ms-5 ps-5 col-5">
+                                    <span class="deals text-uppercase text-white py-1 px-3">Today deal</span>
+                                    <h1 class="fw-bold text-capitalize text-white display-5 mt-3 mb-0">Best ipad deals
+                                    </h1>
+                                    <h1 class="fw-bold text-capitalize text-white display-5">at a glance</h1>
+                                    <p class="text-uppercase text-white fw-medium">free shipping by ecomall</p>
+                                    <p class="text-capitalize text-white fs-6 mb-3">From <span
+                                            class="price fs-4 fw-bold">$499.99</span></p>
+                                    <a href="#" class="text-decoration-none text-uppercase rounded-2 mt-4">shop now</a>
+                                </div>
+                                <div class="new_arrival_slider_img col-6 me-5">
+                                    <img src="img/slide1-ipad.png" alt="Not Found">
+                                </div>
+                            </div>
+                            <div class="item item_3 d-flex justify-content-between align-items-center pt-4">
+                                <div class="item_text ms-5 ps-5 col-5">
+                                    <span class="deals text-uppercase text-white py-1 px-3">Big sale</span>
+                                    <h1 class="fw-bold text-capitalize text-white display-5 mt-3 mb-0">iphone On sale at
+                                    </h1>
+                                    <h1 class="fw-bold text-capitalize text-white display-5">up to 25% off</h1>
+                                    <p class="text-uppercase text-white fw-medium">buy top proucts on Ecomall</p>
+                                    <p class="text-capitalize text-white fs-6 mb-3">From <span
+                                            class="price fs-4 fw-bold">$399.99</span></p>
+                                    <a href="#" class="text-decoration-none text-uppercase rounded-2 mt-4">shop now</a>
+                                </div>
+                                <div class="new_arrival_slider_img col-6 me-5">
+                                    <img src="img/slide1-iphone.png" alt="Not Found">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </nav> -->
+    </section>
+    <!-- Categories Section End -->
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/owl.carousel.min.js"></script>
@@ -311,11 +383,10 @@
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script>
-    $('.startups_section_slider').owlCarousel({
+    $('.categories_slider').owlCarousel({
         loop: true,
-        margin: 10,
+        margin: 20,
         // center: true,
-        nav: false,
         dots: false,
         autoplay: true,
         autoplayTimeout: 3000,
@@ -323,37 +394,33 @@
             0: {
                 items: 1
             },
-            700: {
+            290: {
                 items: 2
             },
-            800: {
+            600: {
                 items: 3
             },
-            1000: {
+            900: {
+                items: 4
+            },
+            1200: {
                 items: 5
             },
         }
     })
-
-    $('.newsletter_section_slider').owlCarousel({
+    $('.new_arrival_slider').owlCarousel({
         loop: true,
-        margin: 25,
         // center: true,
-        dots: true,
+        // dots: false,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 4000,
+        autoplaySpeed: 900,
         responsive: {
             0: {
                 items: 1
             },
-            700: {
-                items: 2
-            },
-            800: {
-                items: 3
-            },
             1000: {
-                items: 5
+                items: 1
             },
         }
     })
