@@ -43,7 +43,7 @@ img {
 }
 
 .menu li a:hover {
-    color: blue;
+    color: #0060c8;
 }
 
 .header_top_sub li a {
@@ -52,7 +52,7 @@ img {
 }
 
 .header_top_sub li a:hover {
-    color: blue;
+    color: #0060c8;
 }
 
 .header_top_sub {
@@ -182,9 +182,6 @@ img {
     display: flex;
     align-items: center;
 } */
-.main_menu ul {
-    gap: 2.5rem;
-}
 
 .main_menu ul li {
     list-style: none;
@@ -218,10 +215,6 @@ img {
     color: #0060c8;
 }
 
-.top_deal {
-    border-left: 1px solid #dcdcdd;
-}
-
 .main_bottom_r .top_deal a {
     color: black;
     font-weight: 800;
@@ -252,4 +245,84 @@ img {
 
 .main_bottom_r .top_deal:hover a {
     color: #0060c8;
+}
+
+/* Categories Section Start */
+
+.categories {
+    background-color: #f1f1f1;
+}
+
+.categories_section {
+    gap: 1.9rem;
+}
+
+.categories_slider_img {
+    height: 65px;
+}
+
+.categories_slider .item {
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all ease-in-out .2s;
+}
+
+.categories_slider .item_text {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    transition: all ease-in-out .2s;
+}
+
+.categories_slider .item:hover {
+    border-color: #0060c8;
+}
+
+.categories_slider .item_text:hover {
+    color: #0060c8;
+}
+
+.new_arrival_slider .item_1 {
+    background-color: #2C2C46;
+    border-radius: 10px;
+}
+
+.new_arrival_slider .item_2 {
+    background-color: #192C57;
+    border-radius: 10px;
+}
+
+.new_arrival_slider .item_3 {
+    background-color: #202F22;
+    border-radius: 10px;
+}
+
+.new_arrival_slider .item_text .deals {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+    background-color: #dd2831;
+    border-radius: 0px 6px 6px 6px;
+}
+
+.new_arrival_slider .item_text p {
+    font-family: "Mulish", sans-serif;
+}
+
+.new_arrival_slider .item_text .price {
+    color: #fcc904;
+}
+
+.new_arrival_slider a {
+    color: #ffffff;
+    background-color: #0060c8;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: .85rem;
+    padding: .85rem 2rem;
+    transition: all ease-in-out .3s;
+}
+
+.new_arrival_slider a:hover {
+    background-color: #0088FF;
 }
