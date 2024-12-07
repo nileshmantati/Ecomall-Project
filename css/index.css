@@ -440,9 +440,9 @@ section {
     gap: .8rem;
 }
 
-.ts_products_galleries .img_box {
-    /* padding: 0px 1.2rem; */
-}
+/* .ts_products_galleries .img_box {
+    padding: 0px 1.2rem;
+} */
 
 .ts_products_galleries .img_box a {
     filter: brightness(0.95) opacity(0.5);
