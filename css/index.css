@@ -568,8 +568,9 @@ section {
 }
 
 /* New Features products Deals Section Start */
+
 .new_features_products_section {
-    gap: 1.9rem;
+    gap: 1.2rem;
 }
 
 .features_banner {
@@ -578,6 +579,7 @@ section {
     background-size: cover;
     background-position: center right;
     border-radius: 10px;
+    padding: 0;
 }
 
 .new_product_banner {
@@ -586,6 +588,38 @@ section {
     background-size: cover;
     background-position: bootom center;
     border-radius: 10px;
+}
+
+
+@media (max-width:797px) {
+    .features_banner {
+        background-image: url("../img/features_banner1.jpg");
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .new_product_banner {
+        background-position: center center;
+        padding-bottom: 6rem;
+    }
+}
+
+@media (max-width:992px) {
+    .features_banner {
+        background-image: url("../img/features_banner1.jpg");
+        background-position: center right;
+        padding-bottom: 6rem;
+    }
+}
+
+@media (max-width:1200px) {
+    .features_banner {
+        background-position: center center;
+    }
+
+    .new_product_banner {
+        background-position: top bottom;
+    }
 }
 
 .features_banner .text_box span {
@@ -605,7 +639,6 @@ section {
 
 .features_banner .text_box p {
     font-family: "Mulish", sans-serif;
-    margin-bottom: 4rem;
 }
 
 
@@ -642,16 +675,4 @@ section {
     font-family: "Mulish", sans-serif;
     color: #0068C8;
     font-weight: 700;
-}
-
-@media (max-width:992px) {
-    .features_banner {
-        background-position: center right;
-    }
-}
-
-@media (max-width:1200px) {
-    .features_banner {
-        background-position: center center;
-    }
 }
