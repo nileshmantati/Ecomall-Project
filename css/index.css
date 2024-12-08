@@ -679,6 +679,9 @@ section {
 }
 
 /* Best Sellers Deals Section Start */
+.best_sellers_products {
+    gap: .8rem;
+}
 
 .best_sellers_heading {
     border-bottom: 1px solid #dcdcdd;
@@ -709,7 +712,7 @@ section {
 .card {
     border: none;
     border-color: transparent;
-    transition: all ease-in-out .8s;
+    transition: all ease-in-out .4s;
 }
 
 .onsale_percent {
@@ -762,7 +765,7 @@ section {
     font-size: .9rem;
     border: 1px solid #0068C8;
     border-radius: 5px;
-    padding: .7rem 3.3rem;
+    padding: .7rem 0;
 }
 
 .card-body .produt_category:hover,
