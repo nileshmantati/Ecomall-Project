@@ -10,19 +10,11 @@ img {
 }
 
 .bg-color-light {
-    background-color: #FFF1E3;
+    background-color: #ffffff;
 }
 
 .bg-color-dark {
-    background-color: #F29A63;
-}
-
-.color-dark {
-    color: #F29A63;
-}
-
-.color-light {
-    color: #FFF1E3;
+    background-color: #f4f4f4;
 }
 
 .font {
@@ -463,7 +455,7 @@ section {
     filter: none;
 }
 
-.group_btns {
+.ts_products_slider .group_btns {
     top: 5%;
     right: 2%;
     display: none;
@@ -474,7 +466,7 @@ section {
     display: flex;
 }
 
-.group_btns .icons_box {
+.ts_products_slider .group_btns .icons_box {
     width: 35px;
     height: 35px;
     background-color: transparent;
@@ -482,44 +474,44 @@ section {
     transition: all ease-in-out .2s;
 }
 
-.group_btns a .icons {
+.ts_products_slider .group_btns a .icons {
     color: rgb(86, 86, 86);
 }
 
-.group_btns .icons_box:hover {
+.ts_products_slider .group_btns .icons_box:hover {
     background-color: #E8f3fe;
 }
 
-.group_btns .wishlist_btn a span {
+.ts_products_slider .group_btns .wishlist_btn a span {
     font-family: "Mulish", sans-serif;
     font-size: .8rem;
     display: block;
 }
 
-.group_btns .wishlist_btn a:hover span {
+.ts_products_slider .group_btns .wishlist_btn a:hover span {
     display: none;
 }
 
-.onsale_percent {
+.ts_products_slider .onsale_percent {
     font-family: "Mulish", sans-serif;
     font-size: .8rem;
     background-color: #0068C8;
     border-radius: 0px 6px 6px 6px;
 }
 
-.featured {
+.ts_products_slider .featured {
     font-family: "Mulish", sans-serif;
     font-size: .8rem;
     background-color: #dd2831;
     border-radius: 0px 6px 6px 6px;
 }
 
-.produt_category {
+.ts_products_slider .produt_category {
     color: #848484;
     font-family: "Mulish", sans-serif;
 }
 
-.product_title {
+.ts_products_slider .product_title {
     color: black;
     font-family: "Mulish", sans-serif;
 }
@@ -680,12 +672,13 @@ section {
 }
 
 /* Best Sellers Deals Section Start */
+
 .best_sellers_products {
     gap: .8rem;
 }
 
 .best_sellers_heading {
-    border-bottom: 1px solid #dcdcdd;
+    border-bottom: 1px solid #cccccc;
 }
 
 .heading_tab h2 {
@@ -872,4 +865,120 @@ section {
 
 .deals_box .text_box p {
     font-family: "Mulish", sans-serif;
+}
+
+/* Ts Products 2 Deals Section Start */
+
+.ts_products_2_section {
+    gap: .8rem;
+}
+
+.ts_products_2_heading {
+    border-bottom: 1px solid #cccccc;
+}
+
+.ts_products_2 .heading_tab h2 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+}
+
+.ts_products_slider_2 .card .group_btns {
+    top: 5%;
+    right: 3%;
+    display: none;
+    transition: all ease-in-out .4s;
+}
+
+.ts_products_slider_2 .card:hover .group_btns {
+    display: flex;
+}
+
+.ts_products_slider_2 .card .icons_box {
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 0.4px solid #dcdcdd;
+    transition: all ease-in-out .2s;
+}
+
+.ts_products_slider_2 .card .group_btns a .icons {
+    color: rgb(86, 86, 86);
+}
+
+.ts_products_slider_2 .card .icons_box:hover {
+    background-color: #E8f3fe;
+}
+
+.ts_products_slider_2 .card .wishlist_btn a span {
+    font-family: "Mulish", sans-serif;
+    font-size: .8rem;
+    display: block;
+}
+
+.ts_products_slider_2 .card .wishlist_btn a:hover span {
+    display: none;
+}
+
+.ts_products_slider_2 .card .tags {
+    top: 15px;
+    left: 15px;
+}
+
+.ts_products_slider_2 .card .onsale_percent {
+    font-family: "Mulish", sans-serif;
+    font-size: .8rem;
+    background-color: #0068C8;
+    border-radius: 0px 6px 6px 6px;
+}
+
+.ts_products_slider_2 .card .featured {
+    font-family: "Mulish", sans-serif;
+    font-size: .8rem;
+    background-color: #dd2831;
+    border-radius: 0px 6px 6px 6px;
+}
+
+.ts_products_slider_2 .card-body span {
+    color: #dd2831;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+}
+
+.ts_products_slider_2 .card-body .price,
+.ts_products_slider_2 .card-body p {
+    color: #848484;
+    font-family: "Mulish", sans-serif;
+}
+
+.ts_products_slider_2 .item_text .add_btn {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: .9rem;
+    border: 1px solid #0068C8;
+    border-radius: 5px;
+    padding: .7rem 3.3rem;
+}
+
+.ts_products_slider_2 .card-body .produt_category:hover,
+.ts_products_slider_2 .card-body .product_title:hover {
+    color: #0068C8;
+}
+
+.ts_products_slider_2 .card-body .add_btn:hover {
+    color: #ffffff;
+    background-color: #0068C8;
+}
+
+.ts_products_slider_2 .owl-dots .owl-dot span {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    transition: all ease-in-out .3s;
+}
+
+.ts_products_slider_2 .owl-dots .owl-dot.active span {
+    width: 35px !important;
+    background: #0068C8 !important;
 }
