@@ -844,3 +844,32 @@ section {
         background-position: center center;
     }
 }
+
+/* Deals Products Section Start */
+
+.deals_box {
+    background-image: url("../img/deals_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    background-color: #0088FF;
+    border-radius: 10px;
+    padding-bottom: 13rem;
+}
+
+.deals_box .deals {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: .8rem;
+    background-color: #dd2831;
+    border-radius: 0px 6px 6px 6px;
+}
+
+.deals_box .text_box h4 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+}
+
+.deals_box .text_box p {
+    font-family: "Mulish", sans-serif;
+}
