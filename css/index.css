@@ -66,6 +66,7 @@ section {
     display: none;
     transition: all ease-in-out .4s;
     font-family: "Mulish", sans-serif;
+    z-index: 8;
 }
 
 .menu li:hover .header_top_sub {
@@ -807,7 +808,7 @@ section {
 .exclusive_offer_text h1 {
     font-family: "Mulish", sans-serif;
     font-weight: 800;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 
 .exclusive_offer_text a {
@@ -823,4 +824,23 @@ section {
 .exclusive_offer_text a:hover {
     background-color: #ffffff;
     color: #0068C8;
+}
+
+@media (max-width:797px) {
+    .exclusive_offer_section {
+        background-position: center right;
+    }
+}
+
+@media (max-width:992px) {
+    .exclusive_offer_section {
+        background-position: center right;
+    }
+}
+
+@media (max-width:1200px) {
+    .exclusive_offer_section {
+        background-size: cover;
+        background-position: center center;
+    }
 }
