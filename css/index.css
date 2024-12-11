@@ -985,10 +985,11 @@ section {
 
 /* Companies Name Slider Section Start */
 
-.companies_name_slider .item img{
+.companies_name_slider .item img {
     height: 2rem;
     transition: all ease-in-out .4s;
 }
+
 .companies_name_slider .item:not(:hover) img {
     opacity: 0.2;
 }
@@ -997,4 +998,47 @@ section {
 
 .sign_up_newsletter {
     background-image: url(../img/bg-newsletter.jpg);
+}
+
+.newsletter_left h2 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+}
+
+.subscribe_email input {
+    padding: 0.8rem 170px 0.8rem 1.5rem;
+    border-radius: 5px;
+    color: #9999A6;
+    border: none;
+    outline: 1px solid black;
+    font-family: "Mulish", sans-serif;
+}
+
+.subscribe_email input::placeholder {
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #9999A6;
+}
+
+.subscribe_email button {
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 0 2rem;
+    color: #ffffff;
+    background-color: black;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 0px 5px 5px 0px;
+    transition: all ease-in-out .3s;
+}
+
+.subscribe_email input:hover {
+    outline-color: #0060c8;
+}
+
+.subscribe_email button:hover {
+    background-color: #0068C8;
 }
