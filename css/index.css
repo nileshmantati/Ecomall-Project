@@ -1012,7 +1012,7 @@ section {
 }
 
 .subscribe_email input {
-    padding: 0.8rem 170px 0.8rem 1.5rem;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
     border-radius: 5px;
     color: #9999A6;
     border: none;
@@ -1047,4 +1047,22 @@ section {
 
 .subscribe_email button:hover {
     background-color: #0068C8;
+}
+
+/* Features Of Our Website Section start */
+
+.features_box .features_icon {
+    color: #0068C8;
+    font-size: 3.5rem;
+}
+
+.features_text h6 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
+    font-size: .9rem;
+}
+
+.features_text p {
+    font-family: "Mulish", sans-serif;
+    font-size: .9rem;
 }
