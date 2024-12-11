@@ -995,9 +995,15 @@ section {
 }
 
 /* Sign Up For Newsletter Section start */
+#sign_up_newsletter {
+    background-image: url(../img/bg-newsletter.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .sign_up_newsletter {
-    background-image: url(../img/bg-newsletter.jpg);
+    background-color: rgba(27, 26, 26, 0.6);
 }
 
 .newsletter_left h2 {
