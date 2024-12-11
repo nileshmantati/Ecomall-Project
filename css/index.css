@@ -982,3 +982,19 @@ section {
     width: 35px !important;
     background: #0068C8 !important;
 }
+
+/* Companies Name Slider Section Start */
+
+.companies_name_slider .item img{
+    height: 2rem;
+    transition: all ease-in-out .4s;
+}
+.companies_name_slider .item:not(:hover) img {
+    opacity: 0.2;
+}
+
+/* Sign Up For Newsletter Section start */
+
+.sign_up_newsletter {
+    background-image: url(../img/bg-newsletter.jpg);
+}
