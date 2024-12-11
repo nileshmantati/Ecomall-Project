@@ -1066,3 +1066,48 @@ section {
     font-family: "Mulish", sans-serif;
     font-size: .9rem;
 }
+
+/* Footer Section start */
+
+.footer_section {
+    border-top: 1px solid #cccccc;
+}
+
+.footer_logo img {
+    width: 9.7rem;
+}
+
+.footer_information p {
+    font-family: "Mulish", sans-serif;
+}
+
+.footer_information p a {
+    color: #dd2831;
+    transition: all ease-in-out .2s;
+}
+
+.footer_information .website_email {
+    color: black;
+    transition: all ease-in-out .2s;
+}
+
+.footer_information h6 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+.footer_information a:hover,
+.footer_information h6:hover {
+    color: #0068c8;
+}
+
+.footer_icons a {
+    color: rgb(70, 70, 70);
+    transition: all ease-in-out .2s;
+}
+
+.footer_icons a:hover {
+    color: #0068C8;
+}
