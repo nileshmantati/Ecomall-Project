@@ -1131,3 +1131,34 @@ section {
 .footer_menu li a:hover {
     color: #0068c8;
 }
+
+.trending_tags .heading_tab h5 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+}
+
+.trending_tag_box a {
+    color: rgba(132, 132, 132, 1);
+    font-family: "Mulish", sans-serif;
+    font-size: .9rem;
+    outline-color: none;
+    transition: all ease-in-out .2s;
+}
+
+.trending_tag_box a:hover {
+    color: #0068C8;
+    outline: 1px solid #0068C8;
+}
+
+.copyright_part {
+    border-top: 1px solid #cccccc;
+}
+
+.copyright_text p {
+    color: rgba(132, 132, 132, 1);
+    font-family: "Mulish", sans-serif;
+}
+
+.copyright_cards img {
+    width: 20rem;
+}
