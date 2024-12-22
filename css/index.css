@@ -907,6 +907,10 @@ section {
     font-weight: 700;
 }
 
+.ts_products_slider_2 .card {
+    border-radius: 10px;
+}
+
 .ts_products_slider_2 .card .group_btns {
     top: 5%;
     right: 3%;
