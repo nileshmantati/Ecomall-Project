@@ -1172,6 +1172,7 @@ section {
     font-size: .9rem;
     outline-color: none;
     transition: all ease-in-out .2s;
+    outline: 1px solid #ebebeb;
 }
 
 .trending_tag_box a:hover {
