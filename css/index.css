@@ -789,7 +789,6 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
-    background-color: #0088FF;
     border-radius: 10px;
 }
 
@@ -840,12 +839,38 @@ section {
 
 /* Deals Products Section Start */
 
-.deals_box {
+.deals_box_1 {
     background-image: url("../img/deals_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center right;
-    background-color: #0088FF;
+    border-radius: 10px;
+    padding-bottom: 13rem;
+}
+
+.deals_box_2 {
+    background-image: url("../img/deals_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    border-radius: 10px;
+    padding-bottom: 13rem;
+}
+
+.deals_box_3 {
+    background-image: url("../img/deals_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    border-radius: 10px;
+    padding-bottom: 13rem;
+}
+
+.deals_box_4 {
+    background-image: url("../img/deals_4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
     border-radius: 10px;
     padding-bottom: 13rem;
 }
