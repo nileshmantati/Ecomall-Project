@@ -346,49 +346,31 @@
         <div class="categories px-3 px-lg-5">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="categories_section col d-flex flex-column flex-wrap flex-md-column-reverse">
-                        <div class="categories_slider owl-carousel owl-theme mt-0 mt-md-4 mb-4 mb-md-0">
+                    <div class="categories_section col d-flex flex-column flex-wrap row-gap-3 mt-4">
+                        <div class="heading_tab">
+                            <h2 class="text-capitalize">Laptops & Desktops</h2>
+                        </div>
+                        <div class="categories_main_box flex flex-row mt-0 mt-md-4 mb-4 mb-md-0">
                             <div
-                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
+                                class="item_box p-4 col-3 mt-1 gap-2 d-flex flex-column justify-content-center align-items-center">
                                 <a href="#" class="text-decoration-none">
-                                    <img src="img/icon-laptops.png" alt="Not Found" class="categories_slider_img">
+                                    <img src="img/mouse.png" alt="Not Found" class="categories_box_img">
+                                </a>
+                                <a href="#" class="item_text text-decoration-none">Accessories</a>
+                            </div>
+                            <div
+                                class="item_box p-4 col-3 mt-1 gap-2 d-flex flex-column justify-content-center align-items-center">
+                                <a href="#" class="text-decoration-none">
+                                    <img src="img/icon-laptops.png" alt="Not Found" class="categories_box_img">
                                 </a>
                                 <a href="#" class="item_text text-decoration-none">Laptops</a>
                             </div>
                             <div
-                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
+                                class="item_box p-4 col-3 mt-1 gap-2 d-flex flex-column justify-content-center align-items-center">
                                 <a href="#" class="text-decoration-none">
-                                    <img src="img/icon-games.png" alt="Not Found" class="categories_slider_img">
+                                    <img src="img/monitor.png" alt="Not Found" class="categories_box_img">
                                 </a>
-                                <a href="#" class="item_text text-decoration-none">Games</a>
-                            </div>
-                            <div
-                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
-                                <a href="#" class="text-decoration-none">
-                                    <img src="img/icon-television.png" alt="Not Found" class="categories_slider_img">
-                                </a>
-                                <a href="#" class="item_text text-decoration-none">Television</a>
-                            </div>
-                            <div
-                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
-                                <a href="#" class="text-decoration-none">
-                                    <img src="img/icon-speaker.png" alt="Not Found" class="categories_slider_img">
-                                </a>
-                                <a href="#" class="item_text text-decoration-none">Speakers</a>
-                            </div>
-                            <div
-                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
-                                <a href="#" class="text-decoration-none">
-                                    <img src="img/icon-headphone.png" alt="Not Found" class="categories_slider_img">
-                                </a>
-                                <a href="#" class="item_text text-decoration-none">Headphones</a>
-                            </div>
-                            <div
-                                class="item p-4 mt-1 gap-2 d-flex flex-column flex-sm-row justify-content-center align-items-center bg-white">
-                                <a href="#" class="text-decoration-none">
-                                    <img src="img/icon-phone.png" alt="Not Found" class="categories_slider_img">
-                                </a>
-                                <a href="#" class="item_text text-decoration-none">Smartphone</a>
+                                <a href="#" class="item_text text-decoration-none">Monitors</a>
                             </div>
                         </div>
                     </div>
@@ -1337,31 +1319,6 @@
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script>
-    $('.categories_slider').owlCarousel({
-        loop: true,
-        margin: 20,
-        // center: true,
-        dots: false,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        responsive: {
-            0: {
-                items: 1
-            },
-            290: {
-                items: 2
-            },
-            600: {
-                items: 3
-            },
-            900: {
-                items: 4
-            },
-            1200: {
-                items: 5
-            },
-        }
-    })
     $('.new_arrival_slider').owlCarousel({
         loop: true,
         // center: true,
