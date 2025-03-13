@@ -271,6 +271,23 @@ section {
     color: #0060c8;
 }
 
+/* breadcrumbs Start  */
+
+.breadcrumbs {
+    background-color: #f4f4f4;
+}
+
+.breadcrumbs_section a {
+    color: #848484;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.breadcrumbs_section a:hover {
+    text-decoration: underline;
+}
+
 /* Categories Section Start */
 
 .categories {
