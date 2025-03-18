@@ -290,6 +290,27 @@ section {
 
 /* Categories Section Start */
 
+.nav-link2 form label span {
+    width: 25px;
+    border: 1px solid #dcdcdd;
+    font-family: "Mulish", sans-serif;
+}
+
+.nav-link2 form label i {
+    display: none;
+}
+
+.nav-link2 form label:hover,
+.nav-link2 form label:hover span {
+    color: #29B0EC;
+    border-color: #29B0EC;
+    transition: all ease-in-out .3s;
+}
+
+.nav-link2 form label:hover i {
+    display: block;
+}
+
 .categories_box_img {
     height: 65px;
 }
