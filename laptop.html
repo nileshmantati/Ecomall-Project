@@ -386,9 +386,10 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="best_sellers_main_section col d-flex flex-wrap">
-                        <div class="best_sellers_category_section col-lg-3 col-12 border-top border-bottom">
-                            <nav class="navbar navbar-expand-lg my-1">
-                                <div class="container-fluid ps-0">
+                        <div
+                            class="best_sellers_category_section col-md col-12 border-top border-bottom d-flex justify-content-center">
+                            <nav class="navbar navbar-expand-lg my-1 col-lg-3 col-6">
+                                <div class="container-fluid ps-0 d-flex justify-content-center">
                                     <!-- <a class="navbar-brand" href="#">Navbar</a> -->
                                     <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -401,6 +402,22 @@
                                     </button>
                                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                         <ul class="navbar-nav mb-2 mb-lg-0 flex-column col-12">
+                                            <li
+                                                class="nav-item col-12 bg-color-dark d-flex justify-content-between d-md-none my-4">
+                                                <a class="nav-link nav-link2" aria-current="page" href="#">
+                                                    <form action="#">
+                                                        <label class="d-flex gap-2">
+                                                            <span
+                                                                class="rounded-2 d-flex align-items-center justify-content-center"><i
+                                                                    class="fa-solid fa-check"></i></span>
+                                                            <p class="fw-medium mb-0">Show only products on sale</p>
+                                                        </label>
+                                                    </form>
+                                                </a>
+                                                <button class="border-0 bg-color-dark mx-3">
+                                                    <i class="fa-solid fa-xmark"></i>
+                                                </button>
+                                            </li>
                                             <li class="nav-item">
                                                 <a class="nav-link fw-bold fs-5" href="#">Price</a>
                                             </li>
@@ -1150,58 +1167,91 @@
                                     </div>
                                 </div>
                             </nav>
+                            <nav class="navbar navbar-expand-lg my-1 col-5">
+                                <div class="container-fluid d-flex justify-content-center">
+                                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <div class="filter d-flex align-items-center justify-content-center gap-2">
+                                            <i class="fa-solid fa-arrow-down-wide-short"></i>
+                                            <p class="mb-0 fw-medium">Sort by</p>
+                                        </div>
+                                    </button>
+                                    <div class="collapse navbar-collapse pt-2" id="navbarSupportedContent">
+                                        <ul class="navbar-nav mb-lg-0 px-2 sorted d-flex d-md-none">
+                                            <li class="nav-item">
+                                                <a class="nav-link d-flex justify-content-center" href="#">Best
+                                                    Selling</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link d-flex justify-content-center" href="#">Best
+                                                    Rated</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link d-flex justify-content-center" href="#">Price Low</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link d-flex justify-content-center" href="#">Price
+                                                    High</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
                         </div>
                         <div class="best_sellers_products_section col-lg-9 col-12">
-                            <!-- <div class="best_sellers_heading col-12 d-flex flex-wrap justify-content-between pb-3 mb-3">
-                            <div class="heading_left">
-                                <button class="border-0 bg-white"><i
-                                        class="fa-solid fa-grip-lines fa-2x me-3"></i></button>
-                                <button class="border-0 bg-white"><i class="fa-solid fa-grip fa-2x"></i></button>
+                            <div
+                                class="best_sellers_heading col-12 mx-3 d-md-flex d-none flex-wrap justify-content-between pb-3 mb-3 align-items-center">
+                                <div class="heading_left">
+                                    <button class="border-0 bg-white"><i
+                                            class="fa-solid fa-grip-lines fa-2x me-3"></i></button>
+                                    <button class="border-0 bg-white"><i class="fa-solid fa-grip fa-2x"></i></button>
+                                </div>
+                                <div class="heading_right d-flex col-6 justify-content-between align-items-center">
+                                    <form action="#" class="f1">
+                                        <label class="d-flex gap-2">
+                                            <span class="rounded-2 d-flex align-items-center justify-content-center"><i
+                                                    class="fa-solid fa-check"></i></span>
+                                            <p class="fw-medium mb-0">Show only products on sale</p>
+                                        </label>
+                                    </form>
+                                    <form action="#" class="d-flex">
+                                        <span>Sort by:</span>
+                                        <ul class="sort mb-0 ps-2 d-flex">
+                                            <li><a href="#" class="text-decoration-none">Latest <i
+                                                        class="fa-solid fa-chevron-down ps-2"></i></a>
+                                                <ul class="sort_dropdown p-1 rounded-3 overflow-hidden gap-1">
+                                                    <li><a href="#" class="text-decoration-none p-2 "
+                                                            style="color: #0068C8; background-color: #E5F0F9;">Best
+                                                            Selling</a></li>
+                                                    <li><a href="#" class="text-decoration-none p-2 ">Best
+                                                            Rated</a></li>
+                                                    <li><a href="#" class="text-decoration-none p-2 ">Price
+                                                            Low</a></li>
+                                                    <li><a href="#" class="text-decoration-none p-2 ">Price
+                                                            High</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                    <form action="#" class="d-flex">
+                                        <span>Show:</span>
+                                        <ul class="sort mb-0 ps-2 d-flex">
+                                            <li><a href="#" class="text-decoration-none">40 <i
+                                                        class="fa-solid fa-chevron-down ps-2"></i></a>
+                                                <ul class="sort_dropdown p-1 rounded-3 overflow-hidden gap-1">
+                                                    <li><a href="#" class="text-decoration-none p-2 "
+                                                            style="color: #0068C8; background-color: #E5F0F9;">40</a>
+                                                    </li>
+                                                    <li><a href="#" class="text-decoration-none p-2 ">80</a></li>
+                                                    <li><a href="#" class="text-decoration-none p-2 ">120</a></li>
+                                                    <li><a href="#" class="text-decoration-none p-2 ">160</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                </div>
                             </div>
-                            <div class="heading_right d-flex col-5 justify-content-between align-items-center">
-                                <form action="#" class="f1">
-                                    <label class="d-flex gap-2">
-                                        <span class="rounded-2 d-flex align-items-center justify-content-center"><i
-                                                class="fa-solid fa-check"></i></span>
-                                        <p class="fw-medium mb-0">Show only products on sale</p>
-                                    </label>
-                                </form>
-                                <form action="#" class="d-flex">
-                                    <span>Sort by:</span>
-                                    <ul class="sort mb-0 ps-2 d-flex">
-                                        <li><a href="#" class="text-decoration-none">Latest <i
-                                                    class="fa-solid fa-chevron-down ps-2"></i></a>
-                                            <ul class="sort_dropdown p-1 rounded-3 overflow-hidden gap-1">
-                                                <li><a href="#" class="text-decoration-none p-2 "
-                                                        style="color: #0068C8; background-color: #E5F0F9;">Best
-                                                        Selling</a></li>
-                                                <li><a href="#" class="text-decoration-none p-2 ">Best
-                                                        Rated</a></li>
-                                                <li><a href="#" class="text-decoration-none p-2 ">Price
-                                                        Low</a></li>
-                                                <li><a href="#" class="text-decoration-none p-2 ">Price
-                                                        High</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </form>
-                                <form action="#" class="d-flex">
-                                    <span>Show:</span>
-                                    <ul class="sort mb-0 ps-2 d-flex">
-                                        <li><a href="#" class="text-decoration-none">40 <i
-                                                    class="fa-solid fa-chevron-down ps-2"></i></a>
-                                            <ul class="sort_dropdown p-1 rounded-3 overflow-hidden gap-1">
-                                                <li><a href="#" class="text-decoration-none p-2 "
-                                                        style="color: #0068C8; background-color: #E5F0F9;">40</a></li>
-                                                <li><a href="#" class="text-decoration-none p-2 ">80</a></li>
-                                                <li><a href="#" class="text-decoration-none p-2 ">120</a></li>
-                                                <li><a href="#" class="text-decoration-none p-2 ">160</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </form>
-                            </div>
-                        </div> -->
                             <div class="best_sellers_products mt-3 mx-3 d-flex flex-wrap justify-content-between">
                                 <div class="card overflow-hidden border-0 col-6 col-md-3 position-relative">
                                     <a href="#" class="col-12">
