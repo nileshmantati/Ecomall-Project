@@ -290,45 +290,6 @@ section {
 
 /* Categories Section Start */
 
-.best_sellers_category_section {
-    border-right: 1px solid #dcdcdd;
-}
-
-.nav-link2 {
-    cursor: pointer;
-}
-
-.nav-link2 form label span {
-    width: 25px;
-    border: 1px solid #dcdcdd;
-    font-family: "Mulish", sans-serif;
-}
-
-.nav-link2 form label i {
-    display: none;
-}
-
-.nav-link2 form label h6 {
-    font-family: "Mulish", sans-serif;
-    color: #848484;
-}
-
-.nav-link2 form label:hover,
-.nav-link2 form label:hover span {
-    color: #29B0EC;
-    border-color: #29B0EC;
-    transition: all ease-in-out .3s;
-}
-
-.nav-link2 form label:hover i {
-    display: block;
-}
-
-.sellers_hr {
-    height: 2px;
-    background-color: #dcdcdd;
-}
-
 .categories_box_img {
     height: 65px;
 }
@@ -356,6 +317,52 @@ section {
 }
 
 /* Best Sellers Deals Section Start */
+
+.best_sellers_category_section {
+    border-right: 1px solid #f0f0f0;
+}
+
+.nav-link2 {
+    cursor: pointer;
+}
+
+.nav-link2 form label span {
+    width: 25px;
+    border: 1px solid #dcdcdd;
+    font-family: "Mulish", sans-serif;
+}
+
+.nav-link2 form label i {
+    display: none;
+}
+
+.nav-link2 form label h6 {
+    font-family: "Mulish", sans-serif;
+    color: #848484;
+}
+
+.filter p {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+}
+
+.nav-link2 form label:hover,
+.nav-link2 form label:hover span {
+    color: #29B0EC;
+    border-color: #29B0EC;
+    transition: all ease-in-out .3s;
+}
+
+.nav-link2 form label:hover i {
+    display: block;
+}
+
+.sellers_hr {
+    height: 2px;
+    background-color: #dcdcdd;
+}
+
 
 .best_sellers_heading {
     border-bottom: 1px solid #cccccc;
