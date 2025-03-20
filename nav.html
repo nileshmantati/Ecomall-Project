@@ -13,6 +13,63 @@
     <link rel="stylesheet" href="css/all.min.css">
 
     <style>
+        .mini_nav {
+            width: 2.6rem;
+        }
+
+        .mini_nav_div {
+            /* background-color: rgb(204, 130, 130); */
+            position: absolute;
+            top: 3.8rem;
+            right: 0;
+            width: 25rem;
+        }
+
+        .mini_nav_ul {
+            height: 220px;
+        }
+
+        .mini_nav_ul li {
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        .mini_nav_ul li .nav-link {
+            color: black;
+            font-weight: 800;
+            font-family: "Mulish", sans-serif;
+            font-size: 1rem;
+            transition: all ease-in-out .2s;
+        }
+
+        .mini_nav_ul .arrow_icon {
+            transition: all ease-in-out .2s;
+        }
+
+        .mini_nav_ul li:hover a,
+        .mini_nav_ul li:hover .arrow_icon {
+            color: #0060c8;
+        }
+
+        .mini_nav_top a {
+            color: black;
+            font-family: "Mulish", sans-serif;
+            font-weight: 500;
+            font-size: 0.9rem;
+            background-color: #e6e6e6;
+        }
+
+        .mini_nav_top a:hover {
+            color: #0060c8;
+        }
+
+        .mini_nav_top span .fa-bars {
+            color: #ffffff;
+        }
+
+        .mini_nav_top span {
+            background-color: #e6e6e6;
+        }
+
         .main_menu ul li {
             list-style: none;
             display: flex;
@@ -35,34 +92,18 @@
             color: #0060c8;
         }
 
-        .mini_nav_div {
-            background-color: rgb(204, 130, 130);
-            position: absolute;
-            top: 3.5rem;
-            width: 18rem;
-            height: 250px;
-        }
-
-        .mini_nav_ul li {
+        #main_bottom_r {
+            margin-top: 4rem;
+            font-size: 1rem;
             border-top: 1px solid #e6e6e6;
-            border-bottom: 1px solid #e6e6e6;
         }
 
-        .mini_nav_ul li .nav-link {
-            color: black;
-            font-weight: 800;
-            font-family: "Mulish", sans-serif;
-            font-size: 1.1rem;
-            transition: all ease-in-out .2s;
+        .header_top_l .hotline .icons {
+            color: #ffffff;
         }
 
-        .mini_nav_ul .arrow_icon {
-            transition: all ease-in-out .2s;
-        }
-
-        .mini_nav_ul li:hover a,
-        .mini_nav_ul li:hover .arrow_icon {
-            color: #0060c8;
+        .header_top_l .hotline span {
+            color: rgb(255, 219, 18);
         }
     </style>
 </head>
@@ -184,187 +225,101 @@
                                 <p class="mb-0 fw-bold fs-6">$0.00</p>
                             </div>
                         </a>
-                        <a href="#" class="search d-flex text-decoration-none align-items-center gap-3 d-md-none">
+                        <!-- <a href="#" class="search d-flex text-decoration-none align-items-center gap-3 d-md-none">
                             <i class="fa-solid fa-bars icons"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="header_bottom px-lg-5 px-md-3 d-none d-md-block bg-white">
-        <div class="container-fluid">
-            <div class="row">
-                <div
-                    class="header_main_bottom col-12 d-flex justify-content-between align-items-center flex-xl-wrap flex-xxl-nowrap">
-                    <div class="main_bottom_l d-flex col-9 col-xl-10 col-xxl-9">
-                        <div class="vertical_menu_box py-3 col-1 col-xl-3 position-relative">
-                            <div
-                                class="vertical_menu_head py-1 me-0 pe-0 pe-xl-4 d-flex align-items-center col-6 col-xl-12">
-                                <a href="#" class="text-decoration-none gap-3 d-flex align-items-center col-12">
-                                    <i class="fa-solid fa-bars icons"></i>
-                                    <span class="text-nowrap d-none d-xl-block">Shop Categories</span>
-                                    <div class="menu_head_icon ms-3 d-none d-xl-block">
-                                        <i class="fa-solid fa-angle-down ms-1 icons"></i>
+                        </a> -->
+                        <nav class="navbar mini_nav navbar-expand-lg position-relative d-lg-none d-flex">
+                            <div class="container-fluid px-0 justify-content-center">
+                                <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                                <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse mini_nav_div py-4 px-4 col-12"
+                                    id="navbarSupportedContent">
+                                    <div
+                                        class="mini_nav_top pb-3 d-flex justify-content-between align-content-center col-12">
+                                        <span class="py-2 px-3 bg-black"><i class="fa-solid fa-bars"></i></span>
+                                        <a href="#"
+                                            class="text-decoration-none d-flex align-items-center justify-content-center col-7">Shop
+                                            Categories</a>
+                                        <span class="py-2 px-3"><i class="fa-solid fa-xmark fs-4"></i></span>
                                     </div>
-                                </a>
+                                    <ul class="navbar-nav mini_nav_ul mb-2 mb-lg-0 overflow-scroll">
+                                        <li class="nav-item py-1 px-3">
+                                            <a class="nav-link fw-medium d-flex justify-content-between align-items-center border-0"
+                                                aria-current="page" href="index.html">Home
+                                                <i class="fa-solid fa-chevron-right ms-1 arrow_icon"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item py-1 px-3">
+                                            <a class="nav-link fw-medium d-flex justify-content-between align-items-center"
+                                                href="laptop.html">Laptops
+                                                <i class="fa-solid fa-chevron-right ms-1 arrow_icon"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item py-1 px-3">
+                                            <a class="nav-link fw-medium d-flex justify-content-between align-items-center"
+                                                href="#">Smartphone
+                                                <i class="fa-solid fa-chevron-right ms-1 arrow_icon"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item py-1 px-3">
+                                            <a class="nav-link fw-medium d-flex justify-content-between align-items-center"
+                                                href="#">Headphones
+                                                <i class="fa-solid fa-chevron-right ms-1 arrow_icon"></i>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item py-1 px-3">
+                                            <a class="nav-link fw-medium" href="#">Camera
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="main_bottom_r py-2 px-3 d-flex justify-content-between align-items-center col-12"
+                                        id="main_bottom_r">
+                                        <div class="top_deal ps-0 pe-2 d-flex align-items-center">
+                                            <a href="#" class="text-decoration-none text-nowrap me-3 fw-bold">
+                                                Today's Deal
+                                            </a>
+                                            <span class="text-white rounded-1">
+                                                HOT
+                                            </span>
+                                        </div>
+                                        <div class="wishcart d-flex align-items-center">
+                                            <a href="#">
+                                                <i class="fa-regular fa-heart icons"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="header_top_l py-2 px-3 d-flex bg-black justify-content-between">
+                                        <ul class="menu p-0 m-0 d-flex gap-2">
+                                            <li class="">
+                                                <a href="#" class="text-decoration-none fs-6">English
+                                                    <i class="fa-solid fa-angle-up ms-1"></i></a>
+                                            </li>
+                                            <li class="">
+                                                <a href="#" class="text-decoration-none fs-6">USD
+                                                    <i class="fa-solid fa-angle-up ms-1"></i></a>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="hotline d-flex text-decoration-none align-items-center">
+                                            <i class="fa-solid fa-headphones icons me-1"></i>
+                                            <div class="d-flex flex-column">
+                                                <span class="mb-0 fw-bold span1 text-nowrap">+08 9229 8228</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
-                            <nav class="vertical_menu position-absolute overflow-hidden">
-                                <ul class="mb-0 ps-0 d-flex flex-column row-gap-1">
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-mobile-screen verti_menu_icons"></i>
-                                        <div
-                                            class="verti_menu_box d-flex justify-content-between align-items-center col">
-                                            <a href="#" class="text-decoration-none text-capitalize">Smartphone</a>
-                                            <i class="fa-solid fa-chevron-right fa-xs ms-1 verti_menu_icons"></i>
-                                        </div>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-laptop verti_menu_icons"></i>
-                                        <div
-                                            class="verti_menu_box d-flex justify-content-between align-items-center col">
-                                            <a href="#" class="text-decoration-none text-capitalize">laptops</a>
-                                            <i class="fa-solid fa-chevron-right fa-xs ms-1 verti_menu_icons"></i>
-                                        </div>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-camera verti_menu_icons"></i>
-                                        <a href="#" class="text-decoration-none text-capitalize">camera</a>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-headphones verti_menu_icons"></i>
-                                        <a href="#" class="text-decoration-none text-capitalize">headphones</a>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-gamepad verti_menu_icons"></i>
-                                        <a href="#" class="text-decoration-none text-capitalize">PC gaming</a>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-tablet verti_menu_icons"></i>
-                                        <a href="#" class="text-decoration-none text-capitalize">tablets</a>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-tv verti_menu_icons"></i>
-                                        <a href="#" class="text-decoration-none text-capitalize">television</a>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-stopwatch verti_menu_icons"></i>
-                                        <a href="#" class="text-decoration-none text-capitalize">samrtwatches</a>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-futbol verti_menu_icons"></i>
-                                        <a href="#" class="text-decoration-none text-capitalize">speakers</a>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-futbol verti_menu_icons"></i>
-                                        <a href="#" class="text-decoration-none text-capitalize">kid electronic</a>
-                                    </li>
-                                    <li class="py-2 px-4">
-                                        <i class="fa-solid fa-gift verti_menu_icons"></i>
-                                        <a href="#" class="text-decoration-none text-capitalize">tech gift</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="main_menu_box py-3 col-11 col-xl-9 ms-0 ms-xl-5">
-                            <nav class="main_menu col-12 h-100">
-                                <ul class="ps-0 mb-0 col-12 h-100 d-flex gap-2 gap-lg-4">
-                                    <li><a href="index.html" class="text-decoration-none">Home
-                                            <i class="fa-solid fa-chevron-down ms-1 arrow_icon"></i>
-                                        </a></li>
-                                    <li><a href="laptop.html" class="text-decoration-none"
-                                            style="color: #0060c8;">Laptops
-                                            <i class="fa-solid fa-chevron-down ms-1 arrow_icon"></i>
-                                        </a></li>
-                                    <li><a href="#" class="text-decoration-none">Smartphone
-                                            <i class="fa-solid fa-chevron-down ms-1 arrow_icon"></i>
-                                        </a></li>
-                                    <li><a href="#" class="text-decoration-none">Headphones
-                                            <i class="fa-solid fa-chevron-down ms-1 arrow_icon"></i>
-                                        </a></li>
-                                    <li><a href="#" class="text-decoration-none">Camera</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div
-                        class="main_bottom_r py-3 d-flex flex-row justify-content-end justify-content-xl-start flex-xl-row-reverse col-3 col-xl-12 col-xxl-3">
-                        <div class="top_deal ps-0 ps-xl-2 pe-2 pe-xl-0 d-flex align-items-center">
-                            <a href="#" class="text-decoration-none text-nowrap me-3">
-                                Today's Deal
-                            </a>
-                            <span class="text-white px-1 rounded-1">
-                                HOT
-                            </span>
-                        </div>
-                        <div class="wishcart d-flex align-items-center">
-                            <a href="#">
-                                <i class="fa-regular fa-heart icons"></i>
-                            </a>
-                        </div>
+                        </nav>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary col-1 position-relative">
-        <div class="container-fluid px-0">
-            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- <a href="#">Shop Categories</a> -->
-            <div class="collapse navbar-collapse mini_nav_div py-4 px-4 col-12 overflow-scroll"
-                id="navbarSupportedContent">
-                <ul class="navbar-nav mini_nav_ul mb-2 mb-lg-0 d-lg-none d-flex">
-                    <li class="nav-item py-1">
-                        <a class="nav-link fw-medium d-flex justify-content-between align-items-center border-0"
-                            aria-current="page" href="index.html">Home
-                            <i class="fa-solid fa-chevron-right ms-1 arrow_icon"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item py-1">
-                        <a class="nav-link fw-medium d-flex justify-content-between align-items-center"
-                            href="laptop.html">Laptops
-                            <i class="fa-solid fa-chevron-right ms-1 arrow_icon"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item py-1">
-                        <a class="nav-link fw-medium d-flex justify-content-between align-items-center"
-                            href="#">Smartphone
-                            <i class="fa-solid fa-chevron-right ms-1 arrow_icon"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item py-1">
-                        <a class="nav-link fw-medium d-flex justify-content-between align-items-center"
-                            href="#">Headphones
-                            <i class="fa-solid fa-chevron-right ms-1 arrow_icon"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item py-1">
-                        <a class="nav-link fw-medium" href="#">Camera
-                        </a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul> -->
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
+
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/owl.carousel.min.js"></script>
