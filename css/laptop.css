@@ -605,22 +605,28 @@ section {
 .produt_category {
     color: #848484;
     font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
 }
 
 .product_title {
     color: black;
     font-family: "Mulish", sans-serif;
+    font-weight: 640;
+    font-size: 0.95rem;
 }
 
 .card-body span {
     color: #dd2831;
     font-family: "Mulish", sans-serif;
     font-weight: 700;
+    font-size: 1.15rem;
 }
 
 .card-body .price {
     color: #848484;
     font-family: "Mulish", sans-serif;
+    font-size: 1.15rem;
 }
 
 .card-body p {
