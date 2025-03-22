@@ -1,0 +1,765 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-color-light {
+    background-color: #ffffff;
+}
+
+.bg-color-dark {
+    background-color: #f4f4f4;
+}
+
+.font {
+    font-family: "Mulish", sans-serif;
+}
+
+section {
+    margin-bottom: 5rem;
+}
+
+/* Header Start */
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.menu li a {
+    color: #ffffff;
+    transition: all ease-in-out .2s;
+    font-family: "Mulish", sans-serif;
+}
+
+.menu li a:hover {
+    color: #0060c8;
+}
+
+.header_top_sub li a {
+    color: black;
+    font-family: "Mulish", sans-serif;
+}
+
+.header_top_sub li a:hover {
+    color: #0060c8;
+}
+
+.header_top_sub {
+    top: 32px;
+    left: -25px;
+    box-shadow: 0px 0px 2px black;
+    display: none;
+    transition: all ease-in-out .4s;
+    font-family: "Mulish", sans-serif;
+    z-index: 8;
+}
+
+.menu li:hover .header_top_sub {
+    display: block;
+}
+
+.header_middle {
+    z-index: 5;
+    border-bottom: 1px solid #dcdcdd;
+}
+
+/* .header_main_middle {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    } */
+
+.header_middle_m {
+    background-color: #f1f1f1;
+    border: 2px solid #0060c8;
+}
+
+.header_middle_m select {
+    font-family: "Mulish", sans-serif;
+    background-color: #f1f1f1;
+}
+
+.header_middle_m select option {
+    font-family: "Mulish", sans-serif;
+    background-color: #ffffff;
+}
+
+.search_box input {
+    border-left: 1.8px solid #dcdcdd;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    font-family: "Mulish", sans-serif;
+    background-color: #f1f1f1;
+}
+
+.search_box input:focus {
+    outline: none;
+}
+
+.search_btn1 {
+    background-color: #0060c8;
+}
+
+.search_btn2 input {
+    font-family: "Mulish", sans-serif;
+    background-color: #0060c8;
+}
+
+.header_middle_r a {
+    color: black;
+    font-family: "Mulish", sans-serif;
+}
+
+.header_middle_r .icons {
+    font-size: 1.5rem;
+    transition: all ease-in-out .2s;
+}
+
+.header_middle_r .text span {
+    color: gray;
+    font-size: .85rem;
+    font-family: "Mulish", sans-serif;
+}
+
+.header_middle_r .text .span1 {
+    color: blue;
+    font-family: "Mulish", sans-serif;
+    transition: all ease-in-out .2s;
+}
+
+.header_middle_r .text p {
+    font-family: "Mulish", sans-serif;
+    transition: all ease-in-out .2s;
+}
+
+.header_middle_r a:hover .icons,
+.header_middle_r a:hover p {
+    color: #0060c8;
+}
+
+.vertical_menu_head {
+    border-right: 1px solid #dcdcdd;
+}
+
+.vertical_menu_head a {
+    color: black;
+}
+
+.vertical_menu_head .icons {
+    font-size: 1.2rem;
+    color: black;
+    transition: all ease-in-out .2s;
+}
+
+.vertical_menu_head span {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+    transition: all ease-in-out .2s;
+}
+
+.vertical_menu_head:hover span,
+.vertical_menu_head:hover .icons {
+    color: #0060c8;
+}
+
+.vertical_menu_box {
+    transition: all ease-in-out 1s;
+}
+
+.vertical_menu_box:hover .vertical_menu {
+    display: block;
+}
+
+.vertical_menu {
+    top: 75px;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 10;
+    border-radius: 10px;
+    display: none;
+    transition: all ease-in-out .4s;
+}
+
+.vertical_menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.vertical_menu ul li a {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: .95rem;
+    transition: all ease-in-out .2s;
+}
+
+.vertical_menu ul li:hover a,
+.vertical_menu ul li:hover .verti_menu_icons {
+    color: #0060c0;
+}
+
+.main_menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main_menu ul li a {
+    color: black;
+    font-weight: 800;
+    font-family: "Mulish", sans-serif;
+    transition: all ease-in-out .2s;
+}
+
+.main_menu .arrow_icon {
+    transition: all ease-in-out .2s;
+}
+
+.main_menu ul li:hover a,
+.main_menu ul li:hover .arrow_icon {
+    color: #0060c8;
+}
+
+.wishcart .icons {
+    font-size: 1.7rem;
+    color: black;
+    transition: all ease-in-out .2s;
+}
+
+.wishcart a:hover .icons {
+    color: #0060c8;
+}
+
+.main_bottom_r .top_deal a {
+    color: black;
+    font-weight: 800;
+    font-family: "Mulish", sans-serif;
+    transition: all ease-in-out .2s;
+}
+
+.main_bottom_r span {
+    font-family: "Mulish", sans-serif;
+    font-size: .7rem;
+    font-weight: 800;
+    background-color: rgba(221, 40, 49, 1);
+    position: relative;
+}
+
+.main_bottom_r span::before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 6px 4px 0;
+    border-color: transparent rgba(221, 40, 49, 1) transparent transparent;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+}
+
+.main_bottom_r .top_deal:hover a {
+    color: #0060c8;
+}
+
+.mini_nav {
+    width: 2.6rem;
+}
+
+.mini_nav_div {
+    /* background-color: rgb(204, 130, 130); */
+    position: absolute;
+    top: 3.9rem;
+    left: -325px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+.mini_nav_ul {
+    height: 220px;
+}
+
+.mini_nav_ul li {
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.mini_nav_ul li .nav-link {
+    color: black;
+    font-weight: 800;
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+    transition: all ease-in-out .2s;
+}
+
+.mini_nav_ul .arrow_icon {
+    transition: all ease-in-out .2s;
+}
+
+.mini_nav_ul li:hover a,
+.mini_nav_ul li:hover .arrow_icon {
+    color: #0060c8;
+}
+
+.mini_nav_top a {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    background-color: #e6e6e6;
+}
+
+.mini_nav_top a:hover {
+    color: #0060c8;
+}
+
+.mini_nav_top span .fa-bars {
+    color: #ffffff;
+}
+
+.mini_nav_top span {
+    background-color: #e6e6e6;
+}
+
+.main_menu ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main_menu ul li a {
+    color: black;
+    font-weight: 800;
+    font-family: "Mulish", sans-serif;
+    transition: all ease-in-out .2s;
+}
+
+.main_menu .arrow_icon {
+    transition: all ease-in-out .2s;
+}
+
+.main_menu ul li:hover a,
+.main_menu ul li:hover .arrow_icon {
+    color: #0060c8;
+}
+
+#main_bottom_r {
+    margin-top: 4rem;
+    font-size: 1rem;
+    border-top: 1px solid #e6e6e6;
+}
+
+.header_top_l {
+    column-gap: 1.5rem;
+}
+
+.header_top_l .hotline .icons {
+    color: #ffffff;
+}
+
+.header_top_l .hotline span {
+    color: rgb(255, 219, 18);
+}
+
+/* breadcrumbs Start */
+
+.breadcrumbs {
+    background-color: #f4f4f4;
+}
+
+.breadcrumbs_section a {
+    color: #848484;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.breadcrumbs_section a:hover {
+    text-decoration: underline;
+}
+
+/* Categories Section Start */
+
+.categories_box_img {
+    height: 65px;
+}
+
+.categories_main_box .item_box {
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all ease-in-out .2s;
+    background-color: #E5F0F9;
+}
+
+.categories_main_box .item_text {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    transition: all ease-in-out .2s;
+}
+
+.categories_main_box .item_box:hover {
+    border-color: #0060c8;
+}
+
+.categories_main_box .item_text:hover {
+    color: #0060c8;
+}
+
+/* Best Sellers Deals Section Start */
+
+.best_sellers_category_section {
+    border-right: 1px solid #f0f0f0;
+    position: relative;
+    height: 50px;
+}
+
+.best_sellers_category_section .nav1 {
+    position: absolute;
+    left: 0;
+    z-index: 4;
+}
+
+.best_sellers_category_section .nav2 {
+    position: absolute;
+    right: 0;
+    z-index: 4;
+}
+
+.nav1 .navbar-nav {
+    height: 1000px;
+}
+
+.nav-link2 {
+    cursor: pointer;
+}
+
+.nav-link2 form label span {
+    width: 25px;
+    border: 1px solid #dcdcdd;
+    font-family: "Mulish", sans-serif;
+}
+
+.nav-link2 form label i {
+    display: none;
+}
+
+.nav-link2 form label h6 {
+    font-family: "Mulish", sans-serif;
+    color: #848484;
+}
+
+.filter p {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: 1rem;
+}
+
+.nav-link2 form label:hover,
+.nav-link2 form label:hover span {
+    color: #29B0EC;
+    border-color: #29B0EC;
+    transition: all ease-in-out .3s;
+}
+
+.nav-link2 form label:hover i {
+    display: block;
+}
+
+.sellers_hr {
+    height: 2px;
+    background-color: #dcdcdd;
+}
+
+.best_sellers_heading {
+    border-bottom: 1px solid #cccccc;
+}
+
+.heading_left i:hover {
+    color: #29B0EC;
+}
+
+.heading_right {
+    color: #848484;
+    font-family: "Mulish", sans-serif;
+}
+
+.heading_right .f1 label span {
+    width: 25px;
+    border: 1px solid #dcdcdd;
+}
+
+.heading_right .f1 label i {
+    display: none;
+}
+
+.heading_right .f1 label:hover,
+.heading_right .f1 label:hover span {
+    color: #29B0EC;
+    border-color: #29B0EC;
+    transition: all ease-in-out .3s;
+}
+
+.heading_right .f1 label:hover i {
+    display: block;
+}
+
+.sort {
+    position: relative;
+}
+
+.sort li {
+    list-style: none;
+}
+
+.sort li a {
+    color: black;
+    font-weight: 600;
+    font-family: "Mulish", sans-serif;
+    transition: all ease-in-out .2s;
+}
+
+.sort_dropdown {
+    position: absolute;
+    top: 36px;
+    left: -60px;
+    width: 10rem;
+    background-color: #ffffff;
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    z-index: 10;
+    box-shadow: 0px 0px 4px black;
+}
+
+.sort_dropdown li {
+    width: 100%;
+}
+
+.sort_dropdown a {
+    display: block;
+}
+
+.sort_dropdown a:hover {
+    background-color: #E5F0F9;
+    color: #0068C8;
+}
+
+.sort li:hover .sort_dropdown {
+    display: flex;
+    color: #0060c8;
+}
+
+.sorted {
+    /* width: 10rem; */
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px black;
+}
+
+.sorted li {
+    width: 100%;
+}
+
+.sorted a {
+    display: block;
+}
+
+.sorted a:hover {
+    background-color: #E5F0F9;
+    color: #0068C8;
+}
+
+.card {
+    border: none;
+    border-color: transparent;
+    transition: all ease-in-out .4s;
+}
+
+.best_sellers_products .card .tags {
+    top: 15px;
+    left: 15px;
+}
+
+.best_sellers_products .onsale_percent {
+    font-family: "Mulish", sans-serif;
+    font-size: .8rem;
+    background-color: #0068C8;
+    border-radius: 0px 6px 6px 6px;
+}
+
+.best_sellers_products .featured {
+    font-family: "Mulish", sans-serif;
+    font-size: .8rem;
+    background-color: #dd2831;
+    border-radius: 0px 6px 6px 6px;
+}
+
+.produt_category {
+    color: #848484;
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.product_title {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-weight: 640;
+    font-size: 0.95rem;
+}
+
+.card-body span {
+    color: #dd2831;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.card-body .price {
+    color: #848484;
+    font-family: "Mulish", sans-serif;
+    font-size: 1.15rem;
+}
+
+.card-body p {
+    color: #848484;
+    font-family: "Mulish", sans-serif;
+    font-size: .9rem;
+    display: none;
+    transition: all ease-in-out .8s;
+    z-index: 6;
+}
+
+.card-body .add_btn {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-size: .9rem;
+    border: 1px solid #0068C8;
+    border-radius: 5px;
+    padding: .7rem 0;
+}
+
+.card-body .produt_category:hover,
+.card-body .product_title:hover {
+    color: #0068C8;
+}
+
+.card-body .add_btn:hover {
+    color: #ffffff;
+    background-color: #0068C8;
+}
+
+.card:hover {
+    border: 1px solid #0068C8;
+    box-shadow: 0 0 15px rgba(101, 101, 101, 0.18);
+}
+
+.card:hover p {
+    /* height: 100%; */
+    display: block;
+}
+
+/* Footer Section start */
+
+.footer_section {
+    border-top: 1px solid #cccccc;
+}
+
+.footer_logo img {
+    width: 9.7rem;
+}
+
+.footer_information p {
+    font-family: "Mulish", sans-serif;
+}
+
+.footer_information p a {
+    color: #dd2831;
+    transition: all ease-in-out .2s;
+}
+
+.footer_information .website_email {
+    color: black;
+    transition: all ease-in-out .2s;
+}
+
+.footer_information h6 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 900;
+    transition: all ease-in-out .2s;
+    cursor: pointer;
+}
+
+.footer_information a:hover,
+.footer_information h6:hover {
+    color: #0068c8;
+}
+
+.footer_icons a {
+    color: rgb(70, 70, 70);
+    transition: all ease-in-out .2s;
+}
+
+.footer_icons a:hover {
+    color: #0068C8;
+}
+
+.footer_about h5 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+}
+
+.footer_menu li {
+    list-style: none;
+}
+
+.footer_menu li a {
+    font-family: "Mulish", sans-serif;
+    color: black;
+    font-size: .95rem;
+    transition: all ease-in-out .2s;
+}
+
+.footer_menu li a:hover {
+    color: #0068c8;
+}
+
+.trending_tags .heading_tab h5 {
+    font-family: "Mulish", sans-serif;
+    font-weight: 800;
+}
+
+.trending_tag_box a {
+    color: rgba(132, 132, 132, 1);
+    font-family: "Mulish", sans-serif;
+    font-size: .9rem;
+    outline-color: none;
+    transition: all ease-in-out .2s;
+    outline: 1px solid #ebebeb;
+}
+
+.trending_tag_box a:hover {
+    color: #0068C8;
+    outline: 1px solid #0068C8;
+}
+
+.copyright_part {
+    border-top: 1px solid #cccccc;
+}
+
+.copyright_text p {
+    color: rgba(132, 132, 132, 1);
+    font-family: "Mulish", sans-serif;
+}
+
+.copyright_cards img {
+    width: 20rem;
+}
