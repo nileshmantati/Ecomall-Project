@@ -602,6 +602,13 @@ section {
     border-radius: 0px 6px 6px 6px;
 }
 
+.best_sellers_products .sold {
+    font-family: "Mulish", sans-serif;
+    font-size: .8rem;
+    background-color: gray;
+    border-radius: 0px 6px 6px 6px;
+}
+
 .produt_category {
     color: #848484;
     font-family: "Mulish", sans-serif;
